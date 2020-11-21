@@ -351,7 +351,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libcutils_shim
+    libcutils_shim \
+    libshim_wfdservice
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
