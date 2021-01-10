@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/sm6250-common/sm6250-common-vendor.mk)
 
 #just a test ig
-PRODUCT_BOARD_PLATFORM := sm8250
+PRODUCT_BOARD_PLATFORM := atoll
 PRODUCT_USES_QCOM_HARDWARE := true
 
 # Enable updating of APEXes
