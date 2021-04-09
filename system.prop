@@ -164,9 +164,6 @@ vendor.mm.enable.qcom_parser=131071983
 # Netflix
 ro.netflix.bsp_rev=Q6250-19132-1
 
-# OTA
-lineage.updater.uri=https://raw.githubusercontent.com/lineage-miatoll/ota/lineage-18.1/lineage_miatoll.json
-
 # Perf
 ro.vendor.qti.sys.fw.bservice_enable=true
 
