@@ -22,6 +22,12 @@ PRODUCT_PRODUCT_VNDK_VERSION := current
 # Enforce java interfaces of product partition
 PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 
+# Enable insecure ADB for debugging
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=adb
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
